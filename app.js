@@ -103,3 +103,11 @@ function nextImage3(direction) {
     images3[index3].classList.add('main');
 }
 
+// new nav
+
+const hamburger = document.querySelector('.hamburger');
+const navLink = document.querySelector('.nav__link');
+
+hamburger.addEventListener('click', () => {
+    navLink.classList.toggle('hide');
+});
