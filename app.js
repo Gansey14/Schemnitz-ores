@@ -103,11 +103,39 @@ function nextImage3(direction) {
     images3[index3].classList.add('main');
 }
 
-// new nav
 
 const hamburger = document.querySelector('.hamburger');
-const navLink = document.querySelector('.nav__link');
+const navLink = document.querySelector('.nav-center');
+const linnk1 = document.querySelector('#linnk1');
+const linnk2 = document.querySelector('#linnk2');
+const linnk3 = document.querySelector('#linnk3');
 
-hamburger.addEventListener('click', () => {
+hamburger.addEventListener('click', hamburgertoggle);
+linnk1.addEventListener('click', hamburgertoggle);
+linnk2.addEventListener('click', hamburgertoggle);
+linnk3.addEventListener('click', hamburgertoggle);
+
+
+function hamburgertoggle() {
+    navLink.classList.toggle('nav__link');
     navLink.classList.toggle('hide');
-});
+    hamburger.classList.toggle('is-active');
+
+}
+
+let scrollToTop = document.getElementById("square-arrow");
+
+window.onscroll = function () {
+    scroll();
+};
+
+function scroll() {
+    if (
+        document.body.scrollTop > 100 ||
+        document.documentElement.scrollTop > 100
+    ) {
+        scrollToTop.style.display = "flex";
+    } else {
+        scrollToTop.style.display = "none";
+    }
+}
