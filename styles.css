@@ -841,7 +841,7 @@ footer>p {
     .feature2 p,
     .feature3 p {
         position: relative;
-        left: 8rem;
+        left: 7.5rem;
         font-weight: 200;
         width: 80%;
     }
@@ -889,5 +889,10 @@ footer>p {
         -ms-transform: translateY(11px);
         -o-transform: translateY(11px);
         transform: translateY(11px);
+    }
+
+    .prosandcons ol {
+        position: relative;
+        left: 12px;
     }
 }
