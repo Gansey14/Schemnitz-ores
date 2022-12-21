@@ -226,6 +226,7 @@ h1 {
 }
 
 h2 {
+    max-width: 60%;
     color: var(--highlight);
     font-size: 4rem;
     font-weight: 600;
@@ -748,7 +749,7 @@ footer>p {
 
     h2 {
         font-size: 3rem;
-        width: 85%;
+        max-width: 70%;
     }
 
     h3 {
@@ -784,7 +785,7 @@ footer>p {
 
 
     h2 {
-        width: 100%;
+        max-width: 100%;
     }
 
     .timeandarrows {
