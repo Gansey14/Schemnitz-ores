@@ -18,7 +18,7 @@
 
 ## Project Overview
 
-- **Project Name:** Germans in Banská Štiavnica Heritage Website
+- **Project Name:** Schemnitz ores
 - **Project Type:** School exam project
 - **Solo Developer:** Samuel Hloušek
 - **Duration:** 1 month
